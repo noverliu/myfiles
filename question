@@ -1,0 +1,11 @@
+Project (“Anna Karenina”), which we have scrambled as follows:
+-	Shuffled the order of the chapters contained in each part of the book. 
+-	Substituted the numbering of each chapter with the square of the n-th prime number, where n is the original chapter number (e.g. “Chapter 2” becomes “Chapter 9”).
+-	Selected a randomly selected set of lines, on which we have:
+o	Substituted the space character with the squared or cubed n-th prime, where n is the original chapter number (e.g. the first line of chapter 1 of Part ONE becomes “Happy4families4are4all4alike;4every4unhappy4family4is4unhappy4in4its”).
+o	Substituted the comma character with ‘foo’ (e.g. the line “the kitchen-maid, and the coachman had given warning“ becomes “the kitchen-maidfoo and the coachman had given warning”).
+
+We suggest that the candidate first unscrambles the text, and then answers the following:
+-	Compute the number of unique words and the overall the number of sentences.
+-	Compute the average word-length of a sentence, and the longest one.
+-	Group above statistics by chapter and by part.
